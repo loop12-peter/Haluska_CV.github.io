@@ -1,2 +1,2 @@
-# Haluska_CV.sk
+# Haluska_CV.github.io
 CV
