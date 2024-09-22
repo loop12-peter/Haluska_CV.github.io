@@ -28,6 +28,7 @@ body{
     color: var(--text-color);
 }
 
+
 .header{
     position: fixed;
     top: 0;
@@ -142,7 +143,7 @@ section{
 .home-content p {
     position: relative;
     font-size: 1.6rem;
-    margin: 2rem 0 4rem;
+    margin: 2rem 0 4rem;;
 }
 
 .btn-box{
@@ -493,6 +494,10 @@ span{
 .skills-column:nth-child(1) .skills-content .progress:nth-child(4) .bar span{
     width: 70%;
 }
+
+.skills-column:nth-child(1) .skills-content .progress:nth-child(5) .bar span{
+    width: 50%;
+}
 /*
 .skills-column:nth-child(2) .skills-content .progress:nth-child(1) .bar span{
     width: 50%;
@@ -511,6 +516,12 @@ span{
 .kontakt {
     min-height: auto;
     padding-bottom: 7rem;
+    
+}
+.kontakt p{
+    font-size: 2rem;
+    color: var(--main-color);
+    width: 10;
 }
 
 .kontakt form{
